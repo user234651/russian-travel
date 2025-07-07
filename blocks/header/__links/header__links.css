@@ -1,0 +1,9 @@
+.header__links {
+  padding-top: 18px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__links {
+    padding-top: 14px;
+  }
+}

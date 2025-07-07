@@ -1,0 +1,39 @@
+@import url(blocks/page/page.css);
+@import url(blocks/header/header.css);
+
+/* inter-regular - latin */
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v19-latin-regular.woff2") format("woff2");
+}
+
+/* inter-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/inter-v19-latin-900.woff2") format("woff2");
+}
+
+:root {
+  /* colours */
+  --main-color: #2a2c2f;
+  --second-color: #ffffff;
+  --url-color: #aaaaaa;
+
+  /* fonts */
+  --font-main: "Inter", "Arial", sans-serif;
+
+  /* font-sizes */
+  --font-weight-main: normal;
+  --font-weight-second: 900;
+}
+
+* {
+  box-sizing: border-box;
+}
