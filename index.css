@@ -1,23 +1,22 @@
 @import url(blocks/page/page.css);
 @import url(blocks/header/header.css);
 
-/* inter-regular - latin */
-/* inter-regular - latin */
+/* inter-regular - cyrillic_latin */
 @font-face {
   font-display: swap;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/inter-v19-latin-regular.woff2") format("woff2");
+  src: url("fonts/inter-v19-cyrillic_latin-regular.woff2") format("woff2");
 }
 
-/* inter-900 - latin */
+/* inter-900 - cyrillic_latin */
 @font-face {
   font-display: swap;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/inter-v19-latin-900.woff2") format("woff2");
+  src: url("fonts/inter-v19-cyrillic_latin-900.woff2") format("woff2");
 }
 
 :root {
@@ -32,8 +31,26 @@
   /* font-sizes */
   --font-weight-main: normal;
   --font-weight-second: 900;
+
+  /* variable defining horizontal margin/padding */
+  --pad: 48px;
 }
 
 * {
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 768px) {
+  :root {
+    --pad: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  :root {
+    --pad: 16px;
+  }
+}
+
+/* line-height shouldn't be in px */
+/* maybe I should move travel__title and travel__subtitle into header */
