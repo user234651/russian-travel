@@ -1,18 +1,11 @@
 .header__link {
   color: inherit;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: clamp(18px, 3.125vw, 24px);
+  line-height: clamp(20px, 3vw, 28px);
   font-weight: var(--font-weight-main);
   text-decoration: none;
 }
 
 .header__link:not(:last-child) {
   margin-right: 18px;
-}
-
-@media screen and (max-width: 767px) {
-  .header__link {
-    font-size: clamp(18px, 3.125vw, 24px);
-    line-height: clamp(20px, 3vw, 28px);
-  }
 }
