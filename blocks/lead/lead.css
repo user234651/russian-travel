@@ -8,27 +8,11 @@
   text-align: center;
   width: 100%;
   max-width: 984px;
-  margin: 0 auto 92px;
+  margin: 0 auto var(--mg-bottom);
 }
 
-/* По макету изображение на ширине в 1024 пикселя должно быть шириной в 928 пикселей. */
-/* Я считаю, что мой вариант смотрится куда лучше. */
-/* Если вы со мной не согласны и считаете, что всё должно быть на 100% по макету, тогда, милости прошу, раскомментируйте медиа-запрос. */
-
-/* @media screen and (max-width: 1024px) {
-  .travel {
-    max-width: 928px;
-  }
-} */
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
   .lead {
-    margin-bottom: 88px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .lead {
-    margin-bottom: 64px;
+    max-width: clamp(984px, 76vw, 1824px);
   }
 }

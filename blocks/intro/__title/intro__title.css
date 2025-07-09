@@ -1,0 +1,6 @@
+.intro__title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: clamp(32px, 7vw, 54px);
+  line-height: clamp(35px, 7.5vw, 58px);
+}

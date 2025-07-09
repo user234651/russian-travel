@@ -1,0 +1,17 @@
+@import url(__container/intro__container.css);
+@import url(__title/intro__title.css);
+@import url(__text/intro__text.css);
+@import url(__stats/intro__stats.css);
+@import url(__span-accent/intro__span-accent.css);
+
+.intro {
+  margin: 0 auto var(--mg-bottom);
+  width: calc(100% - var(--pad) * 2);
+  max-width: 984px;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    max-width: clamp(984px, 76vw, 1824px);
+  }
+}
