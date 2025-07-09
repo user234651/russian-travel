@@ -1,0 +1,4 @@
+.lead__subtitle {
+  font-size: clamp(16px, 3.9vw, 30px);
+  line-height: clamp(20px, 4.69vw, 36px);
+}

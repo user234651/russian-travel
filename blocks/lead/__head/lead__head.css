@@ -1,0 +1,4 @@
+.lead__head {
+  width: clamp(288px, 93vw, 720px);
+  margin: auto;
+}

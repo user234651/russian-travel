@@ -1,0 +1,5 @@
+.lead__title {
+  font-size: clamp(40px, 12.5vw, 96px);
+  line-height: clamp(44px, 13vw, 100px);
+  margin: 0 auto;
+}

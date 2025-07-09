@@ -1,0 +1,14 @@
+.lead__image-subline {
+  text-align: left;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image-subline {
+    margin-left: var(--pad);
+  }
+}

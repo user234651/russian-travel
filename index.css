@@ -1,5 +1,6 @@
 @import url(blocks/page/page.css);
 @import url(blocks/header/header.css);
+@import url(blocks/lead/lead.css);
 
 /* inter-regular - cyrillic_latin */
 @font-face {
@@ -46,11 +47,14 @@
   }
 }
 
+@media screen and (max-width: 544px) {
+  :root {
+    --pad: 20px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   :root {
     --pad: 16px;
   }
 }
-
-/* line-height shouldn't be in px */
-/* maybe I should move travel__title and travel__subtitle into header */
