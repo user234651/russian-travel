@@ -3,3 +3,10 @@
   font-size: 12px;
   line-height: 18px;
 }
+
+@media screen and (min-width: 1280px) {
+  .intro__stats {
+    font-size: clamp(12px, 1vw, 26px);
+    line-height: clamp(18px, 1.4vw, 32px);
+  }
+}

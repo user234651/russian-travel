@@ -4,3 +4,10 @@
   font-size: clamp(32px, 7vw, 54px);
   line-height: clamp(35px, 7.5vw, 58px);
 }
+
+@media screen and (min-width: 1280px) {
+  .intro__title {
+    font-size: clamp(54px, 4vw, 96px);
+    line-height: clamp(58px, 4.5vw, 100px);
+  }
+}

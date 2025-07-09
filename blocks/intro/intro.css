@@ -7,11 +7,5 @@
 .intro {
   margin: 0 auto var(--mg-bottom);
   width: calc(100% - var(--pad) * 2);
-  max-width: 984px;
-}
-
-@media screen and (min-width: 1280px) {
-  .intro {
-    max-width: clamp(984px, 76vw, 1824px);
-  }
+  max-width: clamp(984px, 76vw, 1824px);
 }

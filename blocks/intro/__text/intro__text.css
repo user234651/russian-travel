@@ -4,3 +4,9 @@
   font-size: 16px;
   line-height: 1.63;
 }
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    font-size: clamp(16px, 1.25vw, 30px);
+  }
+}

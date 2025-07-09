@@ -7,12 +7,6 @@
 .lead {
   text-align: center;
   width: 100%;
-  max-width: 984px;
+  max-width: clamp(984px, 76vw, 1824px);
   margin: 0 auto var(--mg-bottom);
-}
-
-@media screen and (min-width: 1280px) {
-  .lead {
-    max-width: clamp(984px, 76vw, 1824px);
-  }
 }
