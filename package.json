@@ -1,0 +1,25 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/user234651/russian-travel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/user234651/russian-travel/issues"
+  },
+  "homepage": "https://github.com/user234651/russian-travel#readme",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

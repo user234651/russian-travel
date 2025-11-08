@@ -1,0 +1,3 @@
+.places {
+    max-width: clamp(984px, 76vw, 1824px);
+}
