@@ -7,7 +7,13 @@
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
+  .lead__image-subline {
+    margin-left: calc(var(--pad) - ((100vw - var(--image-width))/2));
+  }
+}
+
+@media screen and (max-width: 984px) {
   .lead__image-subline {
     margin-left: var(--pad);
   }
