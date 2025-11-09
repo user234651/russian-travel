@@ -1,0 +1,4 @@
+.place__text {
+    font-size: clamp(16px, 1.7578vw, 18px);
+    line-height: 163%;
+}

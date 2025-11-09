@@ -1,3 +1,4 @@
 .places {
-    max-width: clamp(984px, 76vw, 1824px);
+  margin: 0 auto var(--mg-bottom);
+  max-width: var(--image-width);
 }

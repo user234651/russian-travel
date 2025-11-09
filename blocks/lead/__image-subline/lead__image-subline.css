@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1023px) {
   .lead__image-subline {
-    margin-left: calc(var(--pad) - ((100vw - var(--image-width))/2));
+    margin-left: calc(var(--pad) - ((100vw - var(--image-width)) / 2));
   }
 }
 
