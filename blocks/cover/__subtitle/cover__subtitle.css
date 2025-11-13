@@ -1,0 +1,8 @@
+.cover__subtitle {
+  max-width: 360px;
+  margin: 0;
+  font-size: clamp(14px, 2.3438vw, 18px);
+  line-height: clamp(16px, 2.8646vw, 22px);
+  text-align: center;
+  z-index: 2;
+}
