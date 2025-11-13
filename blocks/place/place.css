@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 360px) and (max-width: 1080px) {
   .place {
-    margin: 0 auto;
+    margin: 0 auto clamp(50px, 7.8125vw, 80px);
     width: calc(100% - var(--pad) * 2);
   }
 }
