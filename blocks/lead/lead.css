@@ -7,6 +7,6 @@
 .lead {
   text-align: center;
   width: 100%;
-  max-width: var(--image-width);
+  max-width: var(--max-width);
   margin: 0 auto var(--mg-bottom);
 }

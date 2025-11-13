@@ -15,4 +15,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: clamp(64px, 9vw, 92px);
 }
