@@ -14,6 +14,13 @@
   margin-bottom: clamp(50px, 7.8125vw, 80px);
 }
 
+@media screen and (min-width: 360px) and (max-width: 1080px) {
+  .place {
+    margin: 0 auto;
+    width: calc(100% - var(--pad) * 2);
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .place {
     grid-template-columns: clamp(460px, 40vw, 690px) 1fr;

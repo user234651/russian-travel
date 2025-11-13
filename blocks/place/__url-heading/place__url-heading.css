@@ -1,8 +1,8 @@
 .place__url-heading {
-    color: var(--url-color);
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: var(--font-weight-main);
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  color: var(--url-color);
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: var(--font-weight-main);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

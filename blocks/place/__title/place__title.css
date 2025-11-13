@@ -1,7 +1,13 @@
 .place__title {
-    margin: 0;
-    text-align: left;
-    font-weight: var(--font-weight-second);
-    font-size: clamp(32px, 7.0313vw, 72px);
-    line-height: clamp(35px, 7.4219vw, 76px);
+  margin: 0;
+  text-align: left;
+  font-weight: var(--font-weight-second);
+  font-size: clamp(32px, 7.0313vw, 72px);
+  line-height: clamp(35px, 7.4219vw, 76px);
+}
+
+@media screen and (max-width: 360px) {
+  .place__title {
+    margin-left: var(--pad);
+  }
 }

@@ -1,4 +1,11 @@
 .place__text {
-    font-size: clamp(16px, 1.7578vw, 18px);
-    line-height: 163%;
+  font-size: clamp(16px, 1.7578vw, 18px);
+  line-height: 163%;
+}
+
+@media screen and (max-width: 360px) {
+  .place__text {
+    margin: 0 auto;
+    width: calc(100% - var(--pad) * 2);
+  }
 }
