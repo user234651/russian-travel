@@ -41,8 +41,8 @@
   --pad: 48px;
   --mg-bottom: 92px;
 
-  /* variable defining max-width for some images */
-  --image-width: clamp(984px, 76vw, 1824px);
+  /* variable defining max-width for some elements */
+  --max-width: clamp(984px, 76vw, 1824px);
 }
 
 * {
